@@ -1,0 +1,17 @@
+//Con esto iniciamos un nuevo proyecto, sin test y con postgres
+rails new airbnb-clone -T -d postgresql
+
+//Esto sirve para abrir el proyecto en vs code
+cd airbnb-clone
+code .
+
+//Model es la parte de base de datos
+//View es lo que el usuario ve
+//Controller es la logica que comunica la base de datos con la vista
+//Se puede precendir del modelo si es una base de datos estatica, 
+sin embargo siempre sera necesario un controlador para una vista
+
+buscar generate gitignore for rails project
+y tambien el DS Store
+
+https://github.com/new
