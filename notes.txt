@@ -15,3 +15,14 @@ buscar generate gitignore for rails project
 y tambien el DS Store
 
 https://github.com/new
+
+Para poder correr la base de datos, hay que copiar lo que esta en config/database.yml
+
+rails g controller home index
+
+//Instalar tailwind
+bin/bundle add tailwindcss-rails
+bin/rails tailwindcss:install
+bin/rails s /*Para correr el server*/
+
+https://www.youtube.com/watch?v=T9BsXEdE0cY&ab_channel=RajatTalesra
